@@ -553,6 +553,141 @@ ul {
     transform: translate(4px, -4px) scale(2);
     opacity: 0.2;
   }
+  /* backtotop */
+.back-to-top {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    color: white;
+    background-color: #00a63f;
+    border-radius: 50%;
+    position: fixed;
+  
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .back-to-top:hover i {
+    color: white;
+  }
+  
+  .cd-top--is-visible {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .cd-top--fade-out {
+    opacity: 1;
+  }
+  @media screen and (max-width: 1200px) {
+    .challenge__title {
+      font-size: 30px !important;
+      line-height: 38px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .challenge .challenge__gird {
+      padding: 1.5em;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    #challenge .challenge__item .title__head {
+      font-size: 18px;
+    }
+  
+    #challenge .challenge__text {
+      margin: 14px 0 26px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .challenge__title {
+      font-size: 30px !important;
+      line-height: 38px;
+    }
+  
+    #challenge .challenge__text {
+      margin: 0px;
+      margin-bottom: 10px;
+    }
+  
+    .title-small {
+      margin-bottom: 0;
+    }
+  
+    .challenge__gird .challenge__item img {
+      width: 45px;
+    }
+  }
+  
+  @media screen and (max-width: 440px) {
+    #challenge .challenge__gird .challenge__item {
+      padding: 15px 10px;
+    }
+  
+    #challenge .challenge__gird {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 15px;
+      margin: 0;
+      padding: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 415px) {
+    .challenge__title {
+      font-size: 26px !important;
+      line-height: 32px;
+    }
+  
+    #challenge .btn__style {
+      padding: 12px 30px;
+    }
+  }
+ 
+  @media screen and (max-width: 1200px) {
+    #about .title-big {
+      font-size: 32px !important;
+      line-height: 40px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    #about .title-big {
+      font-size: 30px !important;
+      line-height: 38px;
+    }
+  
+    #about .service-list li {
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #about .about__img .row {
+      padding: 0 10px;
+    }
+  
+    #about .about__img .row .col-6 {
+      padding: 0 5px;
+    }
+  }
+  
+  @media screen and (max-width: 415px) {
+    #about .title-big {
+      font-size: 26px !important;
+      line-height: 32px;
+    }
+  
+    #about .service-list li {
+      margin-bottom: 5px;
+    }
+  }
   /* MEDIA RESPONSIVE */
   @media screen and (max-width: 1399.98px) {
     /* services */
